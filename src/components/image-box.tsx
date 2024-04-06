@@ -42,7 +42,7 @@ export function ImageBox() {
         {
           method: "POST",
           headers: {
-            "Api-Key": "pb3Y3mKuqxstjJz09MUhn22GIwxeVkYfHZKR6xBrhoBjTl1x8l",
+            "Api-Key": "PqivRIoYlKS7gsGlJKOgJnqeiWmSguFNQyVPrzV1hEc9NyNGX8",
             "Content-Type": "application/json",
           },
           body: JSON.stringify(formData[0]),
