@@ -11,13 +11,15 @@ export default function Home() {
         </h1>
         <div className="frame-container">
           <iframe
-            src="https://api.echo3d.com/webar?key=calm-smoke-0106&entry=0a973aea-911a-4b73-932a-c09bb7bf61ab"
+            src="https://go.echo3d.co/fB11"
+          >
+            
+          </iframe>
+          <iframe
+            src="https://go.echo3d.co/Wzgx"
           ></iframe>
           <iframe
-            src="https://api.echo3d.com/webar?key=calm-smoke-0106&entry=9453f35d-cdc5-4454-b0ea-5c766116107e"
-          ></iframe>
-          <iframe
-            src="https://api.echo3d.com/webar?key=calm-smoke-0106&entry=0ead74a2-8bf0-4488-a44f-ebb8d63608c1"
+            src="https://go.echo3d.co/arJa"
           ></iframe>
         </div>
       </div>
