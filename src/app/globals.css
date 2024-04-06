@@ -1,0 +1,202 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.attribution {
+  display: none !important;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  aspect-ratio: 3/4;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 120, 84.2%, 60.2%;
+    --success-foreground: 120, 40%, 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --success: 120, 62.8%, 30.6%;
+    --success-foreground: 120, 40%, 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: hsl(212.7, 26.8%, 83.9);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.gradient-bg {
+  @apply bg-gradient-to-r from-green-300 to-green-500;
+}
+
+.gradient-text {
+  @apply gradient-bg text-transparent bg-clip-text;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+
+/* IFRAME */
+
+
+.frame-container {
+  margin-top: 2rem;
+  width: 100vw;
+  /* height :100%; */
+  display: flex !important;
+  justify-content: space-evenly;
+  row-gap: 1rem;
+  flex-wrap: wrap;
+  padding: 1rem;
+}
+
+.frame-container > iframe {
+  /* width: clamp(30vw, 50%, 40vw) !important; */
+  /* height: clamp(30vh, 50%, 40vh) !important; */
+  width: 30rem;
+  height: 30rem !important;
+}
+
+#authorText {
+  display: none !important;
+}
+
+.attribution-container {
+  display: none !important;
+}
+
+.attribution {
+  content: "Raj Malpani" !important;
+}
+
+.frontImg{
+  top:50px !important;
+}
+
+@media screen and (min-width:1400px) {}
+
+@media (max-width:1400px) {}
+
+@media (min-width:1280px) and (max-width:1400px) {}
+
+@media (min-width:1024px) and (max-width:1280px) {}
+
+@media (min-width:640px) and (max-width:1024px) {
+  ul {
+    gap: 2rem !important;
+  }
+
+  p > img,
+  video {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    aspect-ratio: 3/4;
+    margin: 1rem 0;
+  }
+
+  .image {
+    margin-top: 0;
+    aspect-ratio: unset;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (max-width:640px) {
+  .grid {
+    padding: 0 !important;
+  }
+
+  ul {
+    gap: 0.5rem !important;
+    font-size: 0.6rem !important;
+    background-color: transparent;
+    justify-content: center;
+  }
+
+  p > img,
+  video {
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    aspect-ratio: 3/4;
+    margin: 1rem 0;
+  }
+
+  .image {
+    margin-top: 0;
+    aspect-ratio: unset;
+    width: 5rem;
+    height: 5rem;
+  }
+}
