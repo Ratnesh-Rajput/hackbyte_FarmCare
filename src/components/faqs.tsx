@@ -16,7 +16,7 @@ export default function FAQs() {
       <div className="mt-16 px-8 flex justify-center">
         <Accordion type="single" collapsible className="w-11/12 lg:w-1/2">
           <AccordionItem value="question-1">
-            <AccordionTrigger>What is FarmCare and how does it work?</AccordionTrigger>
+            <AccordionTrigger>What is FarmCare and how does it work-?</AccordionTrigger>
             <AccordionContent>FarmCare is an AI-driven application designed to enhance plant well-being. It uses advanced machine learning algorithms to analyze images of plant leaves, detect diseases, and provide remedies for healthier plants. </AccordionContent>
           </AccordionItem>
           <AccordionItem value="question-2">
