@@ -11,15 +11,15 @@ export default function Home() {
         </h1>
         <div className="frame-container">
           <iframe
-            src="https://go.echo3d.co/fB11"
+            src="https://go.echo3d.co/zm7r"
           >
             
           </iframe>
           <iframe
-            src="https://go.echo3d.co/Wzgx"
+            src="https://go.echo3d.co/B8wS"
           ></iframe>
           <iframe
-            src="https://go.echo3d.co/arJa"
+            src="https://go.echo3d.co/nqTU"
           ></iframe>
         </div>
       </div>
